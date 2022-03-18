@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { clientId, token } = require('./config.json');
+const { clientId, token, guildId } = require('./config.json');
 var fs = require('fs');
 
 const commandsl = [];
@@ -22,6 +22,6 @@ for (const folder of commandFolders) {
 
 const rest = new REST({ version: '9' }).setToken(token);
 
-rest.put(Routes.applicationCommands(clientId), { body: commandsl })
+rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commandsl })
 	.then(() => console.log('(/) Successfully registered application commands. (/)'))
 	.catch(console.error);
