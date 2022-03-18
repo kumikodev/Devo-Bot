@@ -1,5 +1,6 @@
 {
     "token": "",
     "preifx": "--",
-    "clientId": ""
+    "clientId": "",
+    "guildId": ""
 }
