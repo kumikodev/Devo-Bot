@@ -4,7 +4,7 @@
 
 ____
 
-Welcome to the Offical Devo Bot Github Repo! 🎉 🎉
+Welcome to the Official Devo Bot Github Repo! 🎉 🎉
 
 ### Q & A
 ----
