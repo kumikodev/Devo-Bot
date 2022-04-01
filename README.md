@@ -23,7 +23,7 @@ ANSWER: `#`
 <table>
   <tr><td>Fortnite</td><td>/aes, /cosmeticsearch, /creatorcode, /map, /news, /shop, /stats, /item, /playlistid, /seasoninfo</td></tr>
   <tr><td>Utilty</td><td>/dm</td></tr>
-  <tr><td>Mod</td><td>/info</td></tr>
+  <tr><td>Mod</td><td>/createthread, /deletethread</td></tr>
   <tr><td>Normal</td><td>/info</td></tr>
 </table>
 
